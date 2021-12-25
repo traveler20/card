@@ -28,14 +28,7 @@
 			rel="shortcut icon"
 			href="https://traveler20.site/portfolio/asset/img/favicon.ico"
 		/>
-		<link
-			rel="stylesheet"
-			href="https://unpkg.com/tailwindcss/dist/tailwind.min.css"
-		/>
-		<link
-			rel="stylesheet"
-			href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"
-		/>
+		<link rel="stylesheet" href="./asset/css/dist.css" />
 	</head>
 
 	<body
@@ -47,7 +40,7 @@
 			tracking-wider
 			bg-cover
 		"
-		style="background-image: url('./asset/header-bg.webp')"
+		style="background-image: url('./asset/img/header-bg.webp')"
 	>
 		<div
 			class="
@@ -91,7 +84,10 @@
 							w-48
 							bg-cover bg-center
 						"
-						style="background-image: url('./asset/profile.webp')"
+						style="
+							background-image: url('./asset/img/profile.webp');
+							filter: saturate(3%);
+						"
 					></div>
 
 					<h1 class="text-3xl font-bold pt-8 lg:pt-0">Tabito Otsubo</h1>
@@ -280,7 +276,7 @@
 			<div class="w-full lg:w-2/5">
 				<!-- Big profile image for side bar (desktop) -->
 				<img
-					src="./asset/profile.webp"
+					src="./asset/img/profile.webp"
 					class="
 						rounded-none
 						object-cover
